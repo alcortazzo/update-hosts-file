@@ -11,6 +11,9 @@ $ cd update-hosts-file
 
 # install python3 and python3-pip if they are not installed
 
+# install the requirements
+$ python3 -m pip install -r requirements.txt
+
 # run script as root user 
 $ sudo python3 main.py
 ```
