@@ -8,7 +8,7 @@ os_ = platform.system()
 paths = {
     "Linux": "/etc/hosts",
     "Darwin": "/etc/hosts",
-    "Windows": "C:\Windows\System32\drivers\hosts",
+    "Windows": "C:\Windows\System32\drivers\etc\hosts",
 }
 hosts = {
     "hosts": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
